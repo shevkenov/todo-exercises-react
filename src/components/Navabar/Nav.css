@@ -1,0 +1,6 @@
+nav{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
