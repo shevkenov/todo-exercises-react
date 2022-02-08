@@ -1,0 +1,20 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 0 30px;
+}
+
+header button{
+    text-transform: uppercase;
+    color: white;
+    cursor: grab;
+    border: none;
+    background: transparent;
+    font-size: 1.8rem;
+}
+
+header button.active{
+    color: goldenrod;
+}
