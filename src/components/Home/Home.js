@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 
 import "./Home.css";
-import data from '../../store/data.json';
 import Item from '../Item/Item';
 import Header from '../Header/Header';
+import { useExerciseContext } from '../../context/ExercisesContext';
 
 const Home = () => {
-  const [exercises, setExercises] = useState(data.exercises);
+  const {exercises, setExercises} = useExerciseContext();
   const [current, setCurrent] = useState('all');
 
   const removeItem = (id) => setExercises(prevValue => prevValue.filter(exercise => exercise.id !== id));

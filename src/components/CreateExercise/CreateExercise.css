@@ -1,0 +1,32 @@
+form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+form label{
+    font-size: 2rem;
+    color: goldenrod;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+form input,
+form textarea
+{
+    border-radius: 5px;
+    width: 100%;
+    font-size: 2rem;
+    padding: 5px;
+}
+
+.submit-btn{
+    width: 40%;
+    margin-top: 20px;
+    background: goldenrod;
+    height: 50px;
+    cursor: pointer;
+}

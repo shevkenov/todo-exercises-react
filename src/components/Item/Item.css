@@ -45,3 +45,19 @@
 .item-details{
     color: gray;
 }
+
+.edit-item{
+    background: var(--pink);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: var(--golden);
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: white;
+    font-size: 1.6rem;
+    width: 80px;
+    margin: 2px 0;
+    height: 40px;
+    text-align: center;
+    cursor: default;
+}
